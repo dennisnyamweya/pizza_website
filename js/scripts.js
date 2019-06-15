@@ -40,3 +40,9 @@ function getCrustPrice()
     pizzaCrustPrice = crust_prices[selectedCrust.value];//set cakeFilling Price equal to value user chose
     return pizzaCrustPrice;  //finally we return cakeFillingPrice
 }
+
+var size_prices= new Array();
+size_prices["None"]=0;
+size_prices["large"]=1000;
+size_prices["medium"]=800;
+size_prices["small"]=600;
