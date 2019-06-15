@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Landing_page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+  <body>
+      <div class="hero-img">
+        <div class="hero-txt">
+           <h1>Azzip Pizza</h1>
+           <p>Live in a moments notice.Its the taste of heaven.</p>
+        </div>
+        <div class="btn">
+          <button type="button" name="button" class="explore"><a href="#explore">Explore</button>
+          <button type="button" name="button" class="contact"></a>Contact</button>
+        </div>
+        <div class="menu">
+          <div class="logo">
+            <img src="image/zip.png" alt="" width="300px" height="300px">
+          </div>
+          <div class="nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#review">Review</a></li>
+              <li><a href="#"><img src="image/shop.png" alt="shop"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+<!---********************Explore******************--------->
+<div id="explore">
+  <div class="exploration">
+    <h2>Find Our Variety Here</h2>
+        <div class="row">
+          <div class="col-4">
+            <div class="drew">
+              <img src="image/p1.jpeg" alt="hawaian" width="440px" height="170px">
+              <div class="rod">
+                  <p>Hawaian Pizza</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="drew">
+              <img src="image/p2.jpeg" alt="periperi" width="440px" height="170px">
+              <div class="rod">
+                  <p>Periperi Chicken Pizza</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="drew">
+              <img src="image/p3.jpeg" alt="tikka" width="440px" height="170px">
+              <div class="rod">
+                 <p>Veggie-Tikka Pizza</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+  <!--********************Explore2***********************------------------->
+  <div class="explore2">
+    <div class="row">
+      <div class="col-4">
+        <div class="drew">
+          <img src="image/p4.jpeg" alt="" width="440px" height="170px">
+          <div class="rod">
+              <p>Regina mush</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="drew">
+          <img src="image/p5.jpeg" alt="" width="440px" height="170px">
+          <div class="rod">
+            <p>BBQ Steak</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="drew">
+          <img src="image/p5.jpeg" alt="" width="440px" height="170px">
+          <div class="rod">
+            <p>Boerewors pizza</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--**************************Prices*****************************************----------->
+<div id="prices">
+  <h2>Order here now!!!!</h2>
+  <div class="row">
+    <div class="col-6">
+        <img src="image/order.png" alt="" width="640px" height="300px">
+    </div>
+    <div class="col-3">
+      <form action="" id="pizzaform" onsubmit="return false;">
+      <div>
+              <label >Sizes</label>&nbsp;&nbsp;
+              <select id="size" name='size' onchange="calculateTotal()">
+              <option value="None">Select size</option>
+              <option value="large">Large (Ksh.1000)</option>
+              <option value="medium">Medium ($800)</option>
+              <option value="small">Small ($600)</option>
+             </select>
+                 <br>
+              <label >Toppings</label>
+              <select id="topping" name='topping' onchange="calculateTotal()">
+              <option value="None">Select topping</option>
+              <option value="peperroni">Peperroni (Ksh.50)</option>
+              <option value="mushrooms">Mushrooms (Ksh.50)</option>
+              <option value="onions">Onions (Ksh.40)</option>
+             </select>
+              <br/>
+              <label >Crusts</label>&nbsp;&nbsp;&nbsp;
+              <select id="crust" name='crust' onchange="calculateTotal()">
+              <option value="None">Select crust</option>
+              <option value="gluten-free">Gluten-free (Ksh.30)</option>
+              <option value="crispy">Crispy (Ksh.40)</option>
+              <option value="stuffed">Stuffed (Ksh.70)</option>
+             </select>
+             <br>
+             <label for="quantity">Quantity</label>
+             <input type="number"  name="quantity" id="quantity"/>
+              <div id="totalPrice"></div>
+          <input type='submit' id='submit' value='Submit' onclick="calculateTotal()"/>
+          <div class="show-total">
+              <h2></h2>
+          </div>
+      </div>
+     </form>
+    </div>
+    <div class="col-3">
+
+    </div>
+  </div>
+<hr>
+</div>
+<!--************************review***********************---------------------->
+<div id="review">
+  <br>
+  <h2>We <img src="http://pluspng.com/img-png/heart-jpg-png-hd-heart-heart-png-hd-transparent-background-2959.jpg" alt="" width="60px" height="60px"> reviews</h2>
+  <div class="row">
+    <div class="col-4">
+            <img src="image/dc.jpeg" alt="samora"  class="rev">
+            <p>Samora</p>
+            <p>The pizza was of exquisitive taste and i had to just order another one.Please keep it up!!!</p>
+    </div>
+    <div class="col-4">
+          <img src="image/rew.jpeg" alt="zawadi"  class="rev">
+          <p>Zawadi</p>
+          <p>I never imagined my first time tasting pizza to be so memorable,I instantly fell in love with it and recommend others to have a taste of heaven here.</p>
+    </div>
+    <div class="col-4">
+          <img src="image/sdw.jpeg" alt="audrey"  class="rev">
+          <p>Audrey</p>
+          <p>I loved pizza from the start but this pizza...Woooow it was the best and can not get enough.Please just add some more flavours.</p>
+    </div>
+  </div>
+</div>
+<!--**************************Contact*****************************************----------->
+<div id="contacts">
+  <div class="row">
+    <div class="col-4">
+      <p>You can contact us by:<br>
+        Email:azzipizza@gmail.com <br>
+        Located on Double Tree second floor,Ngong Lane
+       </p>
+    </div>
+    <div class="col-4">
+       <p>Opening hours <br>
+         Sunday-Thursday     11.00am-10.00pm <br>
+         Friday-Saturday     11.00am-10.00pm</p>
+    </div>
+    <div class="col-4">
+      <img src="image/tw.png" alt="" width="40px" height="40px">
+      <img src="image/ins.png" alt="" width="40px" height="40px">
+    </div>
+  </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
