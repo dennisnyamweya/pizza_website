@@ -65,3 +65,14 @@ function getQuantity(){
     }
     return pizzaQuantity;
 }
+
+function calculateTotal()
+{
+    var pizzaPrice = ( getToppingPrice() + getCrustPrice() + getSizePrice() ) *getQuantity();
+
+    //display on html page
+    var divobj = document.getElementById('totalPrice');
+    divobj.style.display='block';
+    divobj.innerHTML = "Total Price For the pizza Ksh."+pizzaPrice;
+
+}
