@@ -25,3 +25,9 @@ function getToppingPrice()
     pizzaToppingPrice = topping_prices[selectedTopping.value];//set cakeFilling Price equal to value user chose
     return pizzaToppingPrice;  //finally we return cakeFillingPrice
 }
+
+var crust_prices= new Array();
+crust_prices["None"]=0;
+crust_prices["gluten-free"]=30;
+crust_prices["crispy"]=40;
+crust_prices["stuffed"]=70;
