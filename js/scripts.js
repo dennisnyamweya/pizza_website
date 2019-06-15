@@ -31,3 +31,12 @@ crust_prices["None"]=0;
 crust_prices["gluten-free"]=30;
 crust_prices["crispy"]=40;
 crust_prices["stuffed"]=70;
+
+function getCrustPrice()
+{
+    var pizzaCrustPrice=0;
+    var theForm = document.forms["pizzaform"];//Get a reference to the form id="cakeform"
+     var selectedCrust = theForm.elements["crust"];  //Get a reference to the select id="filling"
+    pizzaCrustPrice = crust_prices[selectedCrust.value];//set cakeFilling Price equal to value user chose
+    return pizzaCrustPrice;  //finally we return cakeFillingPrice
+}
