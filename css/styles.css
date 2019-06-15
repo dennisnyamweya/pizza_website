@@ -1,0 +1,95 @@
+/***********Landing_page***************/
+.hero-img{
+  background-image: url("https://i.imgur.com/6qfFaqS.jpg");
+  height: 700px;
+}
+.hero-txt h1{
+  position: absolute;
+  top: 40%;
+  left: 34%;
+  font-size: 74px;
+  letter-spacing: 2px;
+  color: yellow;
+}
+.hero-txt p{
+  position: absolute;
+  top: 51%;
+  left: 27%;
+  letter-spacing: 2px;
+  font-size: 25px;
+  color: white;
+}
+.explore,.contact{
+  letter-spacing: 4px;
+  font-size: 15px;
+  color: white;
+  margin: 5px;
+  padding: 7px 15px;
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 25px;
+  left: 30px;
+}
+.btn{
+  position: absolute;
+  top: 55%;
+  left: 38%;
+}
+.explore:hover,.contact:hover{
+  background-color:red;
+}
+ul li{
+  display: inline-block;
+  letter-spacing: 3px;
+}
+.nav{
+  position: absolute;
+  margin: 30px;
+  left: 70%;
+  top: 4%;
+  text-decoration: none;
+}
+.nav li a{
+  padding: 3px 7px;
+  text-decoration: none;
+}
+/*********************Explore*********************/
+.exploration,.explore2{
+    text-align: center;
+    justify-content: space-around;
+    margin: 30px;
+    margin-left: 10px;
+}
+.rod{
+  display: none;
+}
+.explore2{
+  margin-top: -1.5%;
+}
+.explore2 p,.exploration p{
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  color: white;
+  font-weight: bold;
+}
+/**********************Prices**************************************/
+#prices{
+  text-align: center;
+}
+/**********************Review**************************************/
+#review{
+flex-direction: row;
+padding: 30px;
+}
+.rev{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  padding: 2px 5px;
+}
+/**********************Contacts**************************************/
+#contacts{
+  padding: 20px;
+  background-color: rgb(211,211,211);
+}
