@@ -55,3 +55,13 @@ function getSizePrice()
     pizzaSizePrice = size_prices[selectedSize.value];//set cakeFilling Price equal to value user chose
     return pizzaSizePrice;  //finally we return cakeFillingPrice
 }
+function getQuantity(){
+    var theForm = document.forms["pizzaform"];
+    var quantity = theForm.elements["quantity"];
+    var pizzaQuantity=0;
+    if(quantity.value!="")
+    {
+        pizzaQuantity =parseInt(document.getElementById("quantity").value);
+    }
+    return pizzaQuantity;
+}
