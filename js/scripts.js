@@ -46,3 +46,12 @@ size_prices["None"]=0;
 size_prices["large"]=1000;
 size_prices["medium"]=800;
 size_prices["small"]=600;
+
+function getSizePrice()
+{
+    var pizzaSizePrice=0;
+    var theForm = document.forms["pizzaform"];//Get a reference to the form id="cakeform"
+     var selectedSize = theForm.elements["size"];  //Get a reference to the select id="filling"
+    pizzaSizePrice = size_prices[selectedSize.value];//set cakeFilling Price equal to value user chose
+    return pizzaSizePrice;  //finally we return cakeFillingPrice
+}
