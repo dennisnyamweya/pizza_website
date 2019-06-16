@@ -97,48 +97,35 @@
     <div class="col-6">
         <img src="image/order.png" alt="" width="640px" height="300px">
     </div>
-    <div class="col-3">
+    <div class="col-6">
       <form action="" id="pizzaform" onsubmit="return false;">
-      <div>
-              <label >Sizes</label>&nbsp;&nbsp;
-              <select id="size" name='size' onchange="calculateTotal()">
-              <option value="None">Select size</option>
-              <option value="large">Large (Ksh.1000)</option>
-              <option value="medium">Medium ($800)</option>
-              <option value="small">Small ($600)</option>
-             </select>
-                 <br>
-              <label >Toppings</label>
-              <select id="topping" name='topping' onchange="calculateTotal()">
-              <option value="None">Select topping</option>
-              <option value="peperroni">Peperroni (Ksh.50)</option>
-              <option value="mushrooms">Mushrooms (Ksh.50)</option>
-              <option value="onions">Onions (Ksh.40)</option>
-             </select>
-              <br/>
-              <label >Crusts</label>&nbsp;&nbsp;&nbsp;
-              <select id="crust" name='crust' onchange="calculateTotal()">
-              <option value="None">Select crust</option>
-              <option value="gluten-free">Gluten-free (Ksh.30)</option>
-              <option value="crispy">Crispy (Ksh.40)</option>
-              <option value="stuffed">Stuffed (Ksh.70)</option>
-             </select>
-             <br>
-             <label for="quantity">Quantity</label>
-             <input type="number"  name="quantity" id="quantity"/>
-              <div id="totalPrice"></div>
-          <input type='submit' id='submit' value='Submit' onclick="calculateTotal()"/>
-          <div class="show-total">
-              <h2></h2>
-          </div>
-      </div>
-     </form>
-    </div>
-    <div class="col-3">
 
-    </div>
+          <label>Choose the size of pizza you desire</label>
+          <select id="size" name='size' onchange="calculateTotal()">
+          <option value="None">Select size</option>
+          <option value="large">Large (Ksh.1000)</option>
+          <option value="medium">Medium ($800)</option>
+          <option value="small">Small ($600)</option>
+         </select>
+         <hr>
+        <label for="crust"><h5>Choose the type of crust you want</h5></label><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="includegluttenfree"  onclick="calculateTotal()"/>Gluten-free (Ksh.20) <br>
+        <input type="checkbox" id="includecrispy"  onclick="calculateTotal()"/>Crispy (Ksh.30) <br>
+        <input type="checkbox" id="includestuffed"  onclick="calculateTotal()"/>Stuffed (Ksh.40)
+
+           <hr>
+         <label for="topping"> <h5>Choose the type of topping you want</h5></label><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="includepeperroni"  onclick="calculateTotal()"/>Peperroni (Ksh.40)<br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="includemushrooms"  onclick="calculateTotal()"/>Mushrooms (Ksh.30)<br>
+        <input type="checkbox" id="includeonions"  onclick="calculateTotal()"/>Onions (Ksh.20)
+
+
+
+          <div id="totalPrice"></div>
+      <input type='submit' id='submit' value='Submit' onclick="calculateTotal()"/>
+      <div class="show-total"></div>
   </div>
-<hr>
+</div>
 </div>
 <!--************************review***********************---------------------->
 <div id="review">
