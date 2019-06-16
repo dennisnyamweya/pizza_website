@@ -1,8 +1,8 @@
 # {Azzip_pizza website()}
-#### {Brief description of application}, {Date of current version}
+#### {This is a pizza ordering website that allows online ordering and delivery of pizza.}, {2019}
 #### By **{List of contributors}**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+{This web application facilitates online ordering of pizza and delivery in case the customer wants to order.  }
 ## Setup/Installation Requirements
 * This is a great place
 * to list setup instructions
