@@ -19,5 +19,5 @@ I used several frammeworks and library.They include:
 {If you run into any problem please put it in the issues and can contact me via my email denisnyamweya813@gmail.com.
 Please feel free to contact me.}
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*{}*
 Copyright (c) {2019} **{Dennis Nyamwerya}**
