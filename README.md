@@ -4,7 +4,7 @@
 ## Description
 {This web application facilitates online ordering of pizza and delivery in case the customer wants to order.  }
 ## Setup/Installation Requirements
-* git clone
+* git clone https://github.com/dennisnyamweya/pizza_website.git
 * cd pizza_website
 * open index.html in browser
 ## Known Bugs
