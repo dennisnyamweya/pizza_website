@@ -92,3 +92,22 @@ function calculateTotal()
     divobj.innerHTML = "Total Price For the pizza Ksh."+pizzaPrice;
 
 }
+//delivery
+function myFunction() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value.indexOf("@");
+  var location = document.getElementById("location").value;
+
+  if(name.length<10){
+    alert("Enter your full name");
+  }
+  if (email == -1) {
+   alert("Not a valid e-mail!");
+ }
+ if(location===""){
+   alert("Enter location");
+ }
+if( name.length>10  && email>-1 && location!=="" ){
+   alert( name +"we have received your location.You will receive at " + location + " by your ordered time");
+ }
+}

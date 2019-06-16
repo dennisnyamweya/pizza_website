@@ -1,4 +1,4 @@
-# {Azzip_pizza website(https://dennisnyamweya.github.io/pizza_website/.)}
+# Azzip_pizza website(https://dennisnyamweya.github.io/pizza_website/)
 #### {This is a pizza ordering website that allows online ordering and delivery of pizza.}, {2019}
 #### By **{List of contributors}**
 ## Description
@@ -40,4 +40,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.}*
-Copyright (c) {2019} **{Dennis Nyamwerya}**
+Copyright (c) {2019} **{Dennis Nyamweya}**
