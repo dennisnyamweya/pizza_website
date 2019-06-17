@@ -1,6 +1,6 @@
-# Azzip_pizza website(https://dennisnyamweya.github.io/pizza_website/)
+# Azzip_pizza website
 #### This is a pizza ordering website that allows online ordering and delivery of pizza.
-#### By **{List of contributors}**
+#### By **Dennis Nyamweya**
 ## Description
 This web application facilitates online ordering of pizza and delivery in case the customer wants to order.  
 ## Setup/Installation Requirements
