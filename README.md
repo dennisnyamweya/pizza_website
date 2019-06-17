@@ -15,6 +15,19 @@ I used several frammeworks and library.They include:
 * CSS(Bootstrap)
 * Javascript
 * jQuery
+## BDD
+### Business Logic
+This application allows ordering of pizza.It takes input of the size of pizza,topping and crust of choice.They have provided a clickable checkout button to view the total cost of your order.It has contact section where you get their contacts and review section about the customers review.
+## User Interface Logic
+The user interface is a one page website that is divided into five sections namely:
+ * Landing page
+ * Variety
+ * Services
+ * Order
+ * Review
+ * Contacts
+
+The variety section has a gallery of pizza variety that is available.On hover the names of the pizza types appear to give insight to customers of the pizza world.
 ## Support and contact details
 {If you run into any problem please put it in the issues and can contact me via my email denisnyamweya813@gmail.com.
 Please feel free to contact me.}
