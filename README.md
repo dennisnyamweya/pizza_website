@@ -2,7 +2,7 @@
 #### {This is a pizza ordering website that allows online ordering and delivery of pizza.}, {2019}
 #### By **{List of contributors}**
 ## Description
-{This web application facilitates online ordering of pizza and delivery in case the customer wants to order.  }
+This web application facilitates online ordering of pizza and delivery in case the customer wants to order.  
 ## Setup/Installation Requirements
 * git clone https://github.com/dennisnyamweya/pizza_website.git
 * cd pizza_website
@@ -29,8 +29,8 @@ The user interface is a one page website that is divided into five sections name
 
 The variety section has a gallery of pizza variety that is available.On hover the names of the pizza types appear to give insight to customers of the pizza world.
 ## Support and contact details
-{If you run into any problem please put it in the issues and can contact me via my email denisnyamweya813@gmail.com.
-Please feel free to contact me.}
+If you run into any problem please put it in the issues and can contact me via my email denisnyamweya813@gmail.com.
+Please feel free to contact me.
 ### License
 *{MIT License
 
