@@ -101,7 +101,7 @@
     <div class="col-3">
       <div id="wert">
         <form action="" id="pizzaform" onsubmit="return false;">
-
+            <label for="note">Note:The real price will be displayed once quantity is selected</label>
             <label>Choose the size of pizza you desire</label>
             <select id="size" name='size' onchange="calculateTotal()">
             <option value="None">Select size</option>
@@ -119,7 +119,9 @@
            <label for="topping"> <h5>Choose the type of topping you want</h5></label><br>
            &nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="includepeperroni"  onclick="calculateTotal()"/>Peperroni (Ksh.40)<br>
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="includemushrooms"  onclick="calculateTotal()"/>Mushrooms (Ksh.30)<br>
-          <input type="checkbox" id="includeonions"  onclick="calculateTotal()"/>Onions (Ksh.20)
+          <input type="checkbox" id="includeonions"  onclick="calculateTotal()"/>Onions (Ksh.20)<br>
+          Quantity<input type="text"  name="quantity" id="quantity" />
+
 
 
 
@@ -132,6 +134,7 @@
   <div class="col-3">
     <div id="rez">
       <h5>Want your pizza to be delivered?</h5>
+      <p>Delivery's free</p>
       <label for="fullnames">Enter your full names</label>
       <input type="text" id="name" value="">
       <label for="email">Enter your email</label>

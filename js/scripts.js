@@ -24,7 +24,6 @@ function getSizePrice()
     pizzaSizePrice = size_prices[selectedSize.value];
     return pizzaSizePrice;
 }
-//crusts types
 //glutten-free
 function gluttenFreePrice(){
     var gluttenFreePrice=0;
@@ -84,7 +83,7 @@ function onionsPrice(){
 //total price function
 function calculateTotal()
 {
-    var pizzaPrice =getSizePrice() + gluttenFreePrice() + crispyPrice() +stuffedPrice() +onionsPrice() +mushroomsPrice() + peperroniPrice();
+    var pizzaPrice =(getSizePrice() + gluttenFreePrice() + crispyPrice() +stuffedPrice() +onionsPrice() +mushroomsPrice() + peperroniPrice() )*getQuantity();
 
     //display on html page
     var divobj = document.getElementById('totalPrice');
@@ -110,4 +109,19 @@ function myFunction() {
 if( name.length>10  && email>-1 && location!=="" ){
    alert( name +"we have received your location.You will receive at " + location + " by your ordered time");
  }
+}
+//checkOut
+function getQuantity()
+{
+    //Assume form with id="theform"
+    var theForm = document.forms["pizzaform"];
+    //Get a reference to the TextBox
+    var quantity = theForm.elements["quantity"];
+    var howmany =0;
+    //If the textbox is not blank
+    if(quantity.value!="")
+    {
+        howmany = parseInt(quantity.value);
+    }
+return howmany;
 }
